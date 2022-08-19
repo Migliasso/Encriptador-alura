@@ -11,7 +11,7 @@ let resultado = document.querySelector(".textoresultado");
 
 botonencritar.onclick = encriptar;
 botondesencriptar.onclick = desencriptar;
-botoncopiar.onclick=  myFunction;
+botoncopiar.onclick=  copy;
 
 function desencriptar(){
     ocultaradelante();
@@ -98,10 +98,8 @@ function desencriptartexto(mensaje){
     }
     return textofinal
 }
-function myFunction() {
-    /* Get the text field */
-    var copyText = document.querySelector("textoresultado");
-
-    navigator.clipboard.writeText(copyText.value);
-
-}
+function copy() {
+    let copyText = document.querySelector("area");
+    copyText.select();
+    document.execCommand("copy");
+  }
