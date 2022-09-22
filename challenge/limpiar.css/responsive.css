@@ -1,0 +1,11 @@
+*{
+    box-sizing:border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5rem;
+   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%););
+}

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Permanent+Marker&family=Press+Start+2P&family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Kosugi+Maru&family=Permanent+Marker&family=Press+Start+2P&family=Rubik+Iso&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#f1f1f1;
+}
+.logo{
+    margin-left: 10px;
+}
+.logo:hover{
+    transform: scale(1.10);
+    
+
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-image:linear-gradient(#2c3e50,#4CA1AF)
+}
+.titulo{
+    font-family: 'Rubik Iso', cursive;
+    font-size: 2em;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    vertical-align: center;
+  
+}
+main{
+    width:100%;
+    height:800px;
+    /* background-color:rgb(24, 0, 0); */
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    width: 40%;
+    height: 100%;
+    /* background: green; */
+
+}
+.seccion1{
+    width: 75%;
+    
+}
+
+.area{
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 160px;
+    resize: none;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: center;
+    border: none;
+    background: white;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+.area:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px rgba(85, 115, 139, 0.365);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+}
+
+.btn-desencriptar,.btn-encriptar{
+    width: 25%;
+    height: 40px;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
+}
+.btn-encriptar:hover {
+    background-color: #2284ca9c;
+    box-shadow: 0px 15px 20px rgba(24, 13, 152, 0.365);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.btn-desencriptar:hover {
+    background-color: #198fe3;
+    box-shadow: 0px 15px 20px rgba(24, 13, 152, 0.365);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.btn-desencriptar:active {
+    transform: translateY(-1px);
+}
+
+.contenedor-botones{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.seccion2{
+    width: 20%;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.muneco{
+width: 100%;
+height: 60%;
+padding-top: 100px;
+}
+.contenedorh3{
+width: 100%;
+height: 20%;
+text-align: center;
+font-family: 'Press Start 2P', cursive;
+
+}
+.contenedorparrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-family: 'Kosugi Maru', sans-serif;
+
+}
+.contenido-resultado{
+    width: 100%;
+    height: 80%;
+    padding: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+.contenido-resultado>.textoresultado{
+    display: block;
+    font-family: 'Kosugi Maru', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-right: 50px;
+    margin-top: 130px;
+    font-size: medium;
+}
+.contenedor-copiar{
+    width: 100%;
+    height: 20%;
+    
+}
+.btn-copiar{
+    width: 35%;
+    height: 40%;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(125, 178, 183);
+    text-align: center;
+    background-image: linear-gradient(#4CA1AF,#2C3E50);
+}
+.ocultar {
+    display:none ;
+}
